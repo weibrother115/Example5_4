@@ -42,7 +42,7 @@ void inputData(int a[], int lastPlantNumber){
 
 void getTotal(int& sum){
 	cout << "Enter number of units produced by each department.\n"
-			<< "Append an negative number to the end of the list.\n";
+			<< "Append a negative number to the end of the list.\n";
 	sum = 0;
 	int next;
 	cin >> next;
